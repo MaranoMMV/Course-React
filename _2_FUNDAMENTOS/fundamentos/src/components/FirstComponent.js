@@ -1,10 +1,12 @@
+import Challenge from "./Challenge";
+import Events from "./Events";
 import MyComponent from "./MyComponent";
 
 const FirstComponent = () => {
     return (
         <div>
-            <h1>Meu primeiro componente</h1>
-            <MyComponent></MyComponent>
+            <h1>Challenge</h1>
+            <Challenge></Challenge>
         </div>
     )
 }
